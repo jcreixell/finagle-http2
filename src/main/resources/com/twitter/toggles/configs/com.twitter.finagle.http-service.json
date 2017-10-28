@@ -1,0 +1,12 @@
+{
+  "toggles": [
+    {
+      "id" : "com.twitter.finagle.http.UseH2",
+      "fraction" : 1.0
+    },
+    {
+      "id" : "com.twitter.finagle.http.UseH2C",
+      "fraction" : 1.0
+    }
+  ]
+}
