@@ -12,7 +12,7 @@ Run the server with:
 $ sbt "runMain com.jcreixell.finaglehttp2.Server"
 ```
 
-Test it with `curl` (make sure it is compiled with support for [nghttp2](https://curl.haxx.se/docs/http2.html):
+Test it with `curl` (make sure it is compiled with support for [nghttp2](https://curl.haxx.se/docs/http2.html)):
 
 ```bash
 $ curl --http2 -v localhost:8080
@@ -35,7 +35,6 @@ nc -l -p 8080
 You should see the upgrade headers:
 
 ```
-...
 upgrade: h2c
 HTTP2-Settings: AAEAABAAAAIAAAABAAN_____AAQAAP__AAUAAEAAAAYAACAA
 connection: HTTP2-Settings,upgrade
@@ -43,7 +42,7 @@ connection: HTTP2-Settings,upgrade
 
 ## Benchmarking
 
-For benchmarking, you can use h2load (part of [nghttp2](https://nghttp2.org/):
+For benchmarking, you can use h2load (part of [nghttp2](https://nghttp2.org/)):
 
 For HTTP/1.1:
 
