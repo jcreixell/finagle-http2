@@ -1,6 +1,6 @@
 # Enabling HTTP/2 in Finagle
 
-Example of enabling HTTP/2 in Finagle via toggle.
+Example of enabling HTTP/2 in Finagle via [toggle](https://github.com/jcreixell/finagle-http2/blob/master/src/main/resources/com/twitter/toggles/configs/com.twitter.finagle.http-service.json).
 
 ## Usage
 
